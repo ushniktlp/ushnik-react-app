@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
+import { useRef, useEffect } from "react";
 import UshnikLogo from "../images/Ushnik Logo Header.png";
+import Collapse from "bootstrap/js/dist/collapse";
 
 const navLinks = [
   { label: "Home", path: "/" },
@@ -12,6 +14,23 @@ const navLinks = [
 ];
 
 const MainHeader = () => {
+  const navRef = useRef(null);
+  const collapseInstanceRef = useRef(null);
+
+  useEffect(() => {
+    if (navRef.current) {
+      collapseInstanceRef.current = new Collapse(navRef.current, {
+        toggle: false,
+      });
+    }
+  }, []);
+
+  const handleNavClick = () => {
+    if (collapseInstanceRef.current) {
+      collapseInstanceRef.current.hide();
+    }
+  };
+
   return (
     <nav
       style={{ top: "40px" }}
@@ -35,13 +54,18 @@ const MainHeader = () => {
 
         {/* Dynamic Menu */}
         <div
+          ref={navRef}
           className="collapse navbar-collapse justify-content-center"
           id="mainNavbar"
         >
           <ul className="navbar-nav gap-4">
             {navLinks.map((item, index) => (
               <li key={index} className="nav-item">
-                <Link className="nav-link nav-link-dark" to={item.path}>
+                <Link
+                  className="nav-link nav-link-dark"
+                  to={item.path}
+                  onClick={handleNavClick}
+                >
                   {item.label}
                 </Link>
               </li>
