@@ -4,7 +4,7 @@ import UshnikLogo from "../images/Ushnik Logo Header.png";
 const navLinks = [
   { label: "Home", path: "/" },
   { label: "About Us", path: "/about" },
-  { label: "All Courses", path: "/allcourses" },
+  { label: "All Coursessss", path: "/allcourses" },
   { label: "Explore Programs", path: "/programs" },
   { label: "Course Schedule", path: "/schedule" },
   { label: "Contact Us", path: "/contact" },
