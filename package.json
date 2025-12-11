@@ -1,7 +1,7 @@
 {
   "name": "ushnik-react",
   "version": "0.1.0",
-  "homepage": "https://the97man.github.io/ushnik-react-app",
+  "homepage": "/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.1.0",

@@ -7,7 +7,7 @@ const Splash = () => {
         style={{ width: "500px", height: "400px" }}
         src={SplashScreenLogo}
         alt="Ushnik Logo"
-        class="splash-screen-logo"
+        className="splash-screen-logo"
       />
     </div>
   );
