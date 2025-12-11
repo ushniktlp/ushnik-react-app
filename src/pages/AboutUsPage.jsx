@@ -3,7 +3,7 @@ import AboutUsPageData from "../data/AboutUsPageData";
 
 const AboutUsPage = () => {
   return (
-    <div className="container py-5">
+    <div className="about-page-wrapper">
       {/* Purpose */}
       <div className="section-block p-4 mb-5 rounded-3 shadow-sm bg-light">
         <h2 className="section-title mb-3">{AboutUsPageData.purpose.title}</h2>

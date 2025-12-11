@@ -392,6 +392,22 @@ body {
   font-weight: 600;
 }
 
+.about-page-wrapper {
+  padding: 100px 50px 100px;
+}
+
+@media (max-width: 768px) {
+  .about-page-wrapper {
+    padding: 150px 0 0 0;
+  }
+}
+
+@media (max-width: 1025px) {
+  .about-page-wrapper {
+    padding: 150px 0 0 0;
+  }
+}
+
 /* ---------- PROGRAMS ---------- */
 .overlay-content {
   position: relative;
