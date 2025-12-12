@@ -6,7 +6,7 @@ import Collapse from "bootstrap/js/dist/collapse";
 const navLinks = [
   { label: "Home", path: "/" },
   { label: "About Us", path: "/about" },
-  { label: "All Coursessss", path: "/allcourses" },
+  { label: "All Courses", path: "/allcourses" },
   { label: "Explore Programs", path: "/programs" },
   { label: "Course Schedule", path: "/schedule" },
   { label: "Contact Us", path: "/contact" },
