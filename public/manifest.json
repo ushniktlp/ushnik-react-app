@@ -1,19 +1,19 @@
 {
-  "short_name": "React App",
+  "short_name": "USHNIK",
   "name": "Create React App Sample",
   "icons": [
     {
-      "src": "Ushnik Logo Header.png",
+      "src": "../src/images/Ushnik Logo Header.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/png"
     },
     {
-      "src": "Ushnik Logo Header.png",
+      "src": "../src/images/Ushnik Logo Header.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "Ushnik Logo Header.png",
+      "src": "../src/images/Ushnik Logo Header.png",
       "type": "image/png",
       "sizes": "512x512"
     }
