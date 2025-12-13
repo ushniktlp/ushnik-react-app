@@ -18,6 +18,9 @@ import AboutUsPage from "./pages/AboutUsPage";
 import Courses from "./pages/Courses";
 import Programs from "./pages/Programs";
 import Schedule from "./pages/Schedule";
+import CertificatePage from "./pages/CertificatePage";
+import InternshipPage from "./pages/InternshipPage";
+import PlacementPage from "./pages/PlacementPage";
 
 function AppContent() {
   const location = useLocation();
@@ -67,6 +70,9 @@ function AppContent() {
           <Route path="/about" element={<AboutUsPage />} />
           <Route path="/allcourses" element={<Courses />} />
           <Route path="/programs" element={<Programs />} />
+          <Route path="/certificate" element={<CertificatePage />} />
+          <Route path="/internship" element={<InternshipPage />} />
+          <Route path="/placement" element={<PlacementPage />} />
           <Route path="/schedule" element={<Schedule />} />
         </Routes>
       </main>

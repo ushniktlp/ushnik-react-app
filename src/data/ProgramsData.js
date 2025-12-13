@@ -6,17 +6,17 @@ const ProgramsData = [
   {
     title: "Certificate Program",
     img: CERT,
-    link: "certificate.html",
+    link: "/certificate",
   },
   {
     title: "Internship Program",
     img: INTER,
-    link: "internship.html",
+    link: "/internship",
   },
   {
     title: "Placement Program",
     img: PLACE,
-    link: "placement.html",
+    link: "/placement",
   },
 ];
 

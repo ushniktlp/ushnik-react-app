@@ -461,6 +461,7 @@ body {
   border-radius: 6px;
   width: 100%;
   transition: 300ms;
+  text-align: center;
 }
 
 .button-64:hover span {
