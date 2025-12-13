@@ -1,4 +1,4 @@
-import UshnikLogo from "../images/Ushnik Logo Header.png";
+import UshnikLogo from "../images/ushnik-logo.png";
 import YT from "../images/youtube.png";
 import FB from "../images/facebook.png";
 import WA from "../images/whatsapp.png";

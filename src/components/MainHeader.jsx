@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useRef, useEffect } from "react";
-import UshnikLogo from "../images/Ushnik Logo Header.png";
+import UshnikLogo from "../images/ushnik-logo.png";
 import Collapse from "bootstrap/js/dist/collapse";
 
 const navLinks = [
