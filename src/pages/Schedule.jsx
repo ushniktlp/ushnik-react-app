@@ -2,6 +2,9 @@
 import React from "react";
 import BatchesData from "../data/BatchesData";
 
+import Footer from "../components/Footer";
+import FooterData from "../data/FooterData";
+
 const Batches = () => {
   const renderTable = (title, data) => (
     <div className="col-12 col-md-6">
@@ -36,12 +39,16 @@ const Batches = () => {
   );
 
   return (
-    <div className="container py-5 batches-container">
-      <div className="row g-4">
-        {renderTable("Weekday Batches", BatchesData.weekday)}
-        {renderTable("Weekend Batches", BatchesData.weekend)}
+    <>
+      <div className="container py-5 batches-container">
+        <div className="row g-4">
+          {renderTable("Weekday Batches", BatchesData.weekday)}
+          {renderTable("Weekend Batches", BatchesData.weekend)}
+        </div>
       </div>
-    </div>
+
+      <Footer data={FooterData} />
+    </>
   );
 };
 

@@ -410,28 +410,7 @@ body {
 
 /* ---------- PROGRAMS ---------- */
 .overlay-content {
-  position: relative;
-  height: 10%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.program-buttons {
-  display: flex;
-  gap: 50px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.program-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 15px;
-}
-
-.overlay-content {
+  padding-top: 80px;
   position: relative;
   height: 10%;
   display: flex;
