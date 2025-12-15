@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom";
-import CertFreshersData from "../data/CertFreshersData";
+import CertificateData from "../data/CertificateData";
 
-const CertFreshers = () => {
+const CertificateComp = () => {
   return (
     <div className="container my-5">
       <div className="card shadow p-4">
         <h5 className="fw-bold mb-3">Freshers:</h5>
 
         <div className="d-flex flex-wrap gap-2">
-          {CertFreshersData.map((program, index) => (
+          {CertificateData.map((program, index) => (
             <Link
               key={index}
               to={program.path}
@@ -24,4 +24,4 @@ const CertFreshers = () => {
   );
 };
 
-export default CertFreshers;
+export default CertificateComp;

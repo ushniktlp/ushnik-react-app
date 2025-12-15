@@ -1,4 +1,4 @@
-const CertFreshersData = [
+const CertificateData = [
   {
     label: "UI/UX Developer",
     path: "/uiux",
@@ -46,4 +46,4 @@ const CertFreshersData = [
   },
 ];
 
-export default CertFreshersData;
+export default CertificateData;

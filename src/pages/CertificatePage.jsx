@@ -1,4 +1,4 @@
-import Freshers from "../components/CertFreshers";
+import Freshers from "../components/CertificateComp";
 import Footer from "../components/Footer";
 import FooterData from "../data/FooterData";
 
