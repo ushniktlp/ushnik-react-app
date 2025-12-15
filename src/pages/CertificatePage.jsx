@@ -1,11 +1,11 @@
-import Freshers from "../components/CertificateComp";
+import ProgramsComp from "../components/ProgramsComp";
 import Footer from "../components/Footer";
 import FooterData from "../data/FooterData";
 
 const CertificatePage = () => {
   return (
     <div>
-      <Freshers />
+      <ProgramsComp type="certificate" />
       <Footer data={FooterData} />
     </div>
   );

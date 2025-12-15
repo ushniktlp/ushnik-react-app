@@ -1,5 +1,5 @@
 import React from "react";
-import InternshipData from "../data/InternshipData";
+import InternshipData from "../data/ProgramsData";
 import { Link } from "react-router-dom";
 
 const InternshipComp = () => {

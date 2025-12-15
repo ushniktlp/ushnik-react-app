@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-import CertificateData from "../data/CertificateData";
+import CertificateData from "../data/ProgramsData";
 
 const CertificateComp = () => {
   return (
-    <div className="container my-5">
-      <div className="card shadow p-4">
-        <h5 className="fw-bold mb-3">Freshers:</h5>
+    <div className="container my-5" style={{ paddingTop: "72px" }}>
+      <div className="card shadow p-4 mt-4">
+        <h5 className="mb-4 mt-3 fw-bold fs-2 fs-md-1 text-break">Freshers:</h5>
 
         <div className="d-flex flex-wrap gap-2">
           {CertificateData.map((program, index) => (

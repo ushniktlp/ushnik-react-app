@@ -3,7 +3,6 @@ import ProgramsData from "../data/ProgramsData";
 import ProgramsVideo from "../assets/Programs-Video.mp4";
 import Footer from "../components/Footer";
 import FooterData from "../data/FooterData";
-
 import { Link } from "react-router-dom";
 
 const Programs = () => {
@@ -22,21 +21,21 @@ const Programs = () => {
           <source src={ProgramsVideo} type="video/mp4" />
         </video>
 
-        <div className="overlay-content d-flex align-items-center justify-content-center h-10">
+        <div className="overlay-content d-flex align-items-center justify-content-center h-100">
           <div className="program-buttons mt-5 pt-5">
-            {ProgramsData.map((program, index) => (
+            {ProgramsData.overview.map((overview, index) => (
               <div className="program-card" key={index}>
                 <img
-                  src={program.img}
+                  src={overview.img}
                   className="program-img"
-                  alt={program.title}
+                  alt={overview.title}
                 />
 
                 <Link
-                  to={program.link}
+                  to={overview.link}
                   className="button-64 text-decoration-none text-white"
                 >
-                  <span className="text">{program.title}</span>
+                  <span className="text">{overview.title}</span>
                 </Link>
               </div>
             ))}
@@ -44,7 +43,7 @@ const Programs = () => {
         </div>
       </section>
 
-      {/* FOOTER (NOW BELOW VIDEO) */}
+      {/* FOOTER */}
       <Footer data={FooterData} />
     </>
   );

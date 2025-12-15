@@ -1,11 +1,11 @@
-import PlacementComp from "../components/PlacementComp";
+import ProgramsComp from "../components/ProgramsComp";
 import Footer from "../components/Footer";
 import FooterData from "../data/FooterData";
 
 const PlacementPage = () => {
   return (
     <div>
-      <PlacementComp />
+      <ProgramsComp type="placement" />
       <Footer data={FooterData} />
     </div>
   );

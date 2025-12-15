@@ -1,5 +1,5 @@
 import React from "react";
-import PlacementData from "../data/PlacementData";
+import PlacementData from "../data/ProgramsData";
 
 const PlacementComp = () => {
   return (
