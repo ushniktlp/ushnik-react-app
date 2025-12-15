@@ -3,6 +3,7 @@ import { Modal, Tab, Nav, Row, Col, Fade, Form } from "react-bootstrap";
 import PopUpData from "../data/PopUpData";
 import pythonaimlimage from "../images/pythonaiml.jpg";
 import CustomButton from "../components/CustomButton";
+import { useNavigate } from "react-router-dom";
 
 const IMAGES = {
   //"socanalyst.jpg": socimage,
@@ -10,6 +11,8 @@ const IMAGES = {
 };
 
 const PopUpModal = ({ show, onHide }) => {
+  const navigate = useNavigate();
+
   const [activeKey, setActiveKey] = useState("pythonaiml");
 
   const [name, setName] = useState("");
@@ -78,13 +81,17 @@ const PopUpModal = ({ show, onHide }) => {
                         <strong>📍 Mode:</strong> {pythonaiml.mode}
                       </p>
                       <p>{pythonaiml.description}</p>
-                      <CustomButton href={pythonaiml.registerLink}>
-                        Register Now
-                      </CustomButton>
-                      &nbsp; &nbsp;
-                      <CustomButton href={pythonaiml.detailsLink}>
-                        What is this program?
-                      </CustomButton>
+                      <div className="d-flex gap-3 flex-wrap">
+                        <CustomButton href={pythonaiml.registerLink}>
+                          Register Now
+                        </CustomButton>
+
+                        <CustomButton
+                          onClick={() => navigate("/courses/python-for-ai-ml")}
+                        >
+                          What is this program?
+                        </CustomButton>
+                      </div>
                     </Col>
 
                     <Col lg={5} className="text-center mt-4 mt-lg-0">

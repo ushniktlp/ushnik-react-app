@@ -16,10 +16,11 @@ const CourseDetails = () => {
   }
 
   return (
-    <div className="container my-5">
-      <div className="card shadow p-4">
-        {/* Title */}
-        <h1 className="mb-4">{course.title}</h1>
+    <div className="container my-5" style={{ paddingTop: "72px" }}>
+      <div className="card shadow p-4 mt-4">
+        <h1 className="mb-4 mt-3 fw-bold fs-2 fs-md-1 text-break">
+          {course.title}
+        </h1>
 
         {/* Description */}
         {course.description && (

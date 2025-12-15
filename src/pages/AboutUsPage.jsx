@@ -7,7 +7,7 @@ import FooterData from "../data/FooterData";
 const AboutUsPage = () => {
   return (
     <>
-      <div className="about-page-wrapper">
+      <div className="about-page-wrapper text-justify lh-lg text-md-start">
         {/* Purpose */}
         <div className="section-block p-4 mb-5 rounded-3 shadow-sm bg-light">
           <h2 className="section-title mb-3">

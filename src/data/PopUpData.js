@@ -26,7 +26,7 @@ const PopUpData = {
       description: "",
       image: "pythonaiml.jpg",
       registerLink: "#",
-      detailsLink: "pythonaiml.html",
+      detailsLink: "/python-for-ai-ml",
     },
     {
       id: "refer",

@@ -147,21 +147,6 @@ body {
   justify-content: center;
 }
 
-/* .btn.btn-lg {
-  width: 200px;
-  font-weight: 700;
-  background-color: #fd5516;
-  color: #143264;
-  transition: 0.3s ease;
-}
-
-.btn.btn-lg:hover {
-  font-weight: 700;
-  background-color: #fd5516;
-  color: #143264;
-  transform: scale(1.1);
-} */
-
 .hero-student-img {
   width: 100%;
   max-width: 420px;
