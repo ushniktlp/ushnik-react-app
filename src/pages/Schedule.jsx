@@ -4,9 +4,8 @@ import BatchesData from "../data/BatchesData";
 
 import Footer from "../components/Footer";
 import FooterData from "../data/FooterData";
-
-// import SEOComp from "../components/SEOComp";
-// import SEOMetaData from "../data/SEOMetaData.js";
+import SEOComp from "../components/SEOComp";
+import SEOMetaData from "../data/SEOMetaData";
 
 const Batches = () => {
   const renderTable = (title, data) => (
@@ -43,7 +42,7 @@ const Batches = () => {
 
   return (
     <>
-      {/* <SEOComp {...SEOMetaData.schedule} /> */}
+      <SEOComp {...SEOMetaData.schedule} />
       <div className="container py-5 batches-container">
         <div className="row g-4">
           {renderTable("Weekday Batches", BatchesData.weekday)}

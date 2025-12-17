@@ -6,6 +6,7 @@ const SeoMetadata = {
       "Ushnik Technologies is a leading IT training institute in Hyderabad offering UI/UX, Python Full Stack, MERN, AI & Machine Learning, DevOps and SOC Analyst courses with internship, certification and placement support.",
     keywords:
       "IT training Hyderabad, software courses, internship with placement, Python full stack course, AI ML training, DevOps course, UI UX training",
+    path: "/",
   },
 
   about: {
@@ -14,6 +15,7 @@ const SeoMetadata = {
       "Ushnik Technologies is a career-oriented IT training institute focused on practical learning, real-time projects, internships and placement support for students and professionals.",
     keywords:
       "about Ushnik, IT training institute India, career focused training, skill development, practical learning",
+    path: "/about",
   },
 
   allCourses: {
@@ -22,6 +24,7 @@ const SeoMetadata = {
       "Explore all IT courses at Ushnik including Python Full Stack, UI/UX Design, AI & Machine Learning, MERN Stack, DevOps and Cyber Security programs with certification and placement assistance.",
     keywords:
       "IT courses list, Python courses, AI ML courses, MERN stack training, DevOps certification, software training",
+    path: "/allcourses",
   },
 
   programs: {
@@ -30,6 +33,7 @@ const SeoMetadata = {
       "Ushnik offers structured training programs designed to make learners job-ready through hands-on projects, internships, industry mentoring and certification.",
     keywords:
       "job oriented programs, internship programs, IT training programs, career programs Hyderabad",
+    path: "/programs",
   },
 
   certificate: {
@@ -38,6 +42,7 @@ const SeoMetadata = {
       "Ushnik provides industry-recognized certificates on successful completion of courses to enhance credibility, skills validation and career opportunities.",
     keywords:
       "IT certification, software certification courses, training certificates, industry recognized certification",
+    path: "/certificate",
   },
 
   internship: {
@@ -46,6 +51,7 @@ const SeoMetadata = {
       "Gain real-world experience through Ushnik internship programs featuring live projects, expert mentorship, certification and career guidance.",
     keywords:
       "internship with certification, IT internships Hyderabad, live project internship, student internship",
+    path: "/internship",
   },
 
   placement: {
@@ -54,6 +60,7 @@ const SeoMetadata = {
       "Ushnik offers complete placement assistance including resume building, mock interviews, recruiter connections and job opportunities.",
     keywords:
       "placement support, IT job assistance, interview preparation, resume building, job placement",
+    path: "/placements",
   },
 
   schedule: {
@@ -62,6 +69,7 @@ const SeoMetadata = {
       "Check updated batch schedules and class timings for all Ushnik programs including weekday and weekend learning options.",
     keywords:
       "course schedule, batch timings, IT training schedule, weekend batches, weekday classes",
+    path: "/schedule",
   },
 
   contact: {
@@ -70,6 +78,7 @@ const SeoMetadata = {
       "Contact Ushnik Technologies for course details, admissions, internships and placement support. Our team will assist you with all enquiries.",
     keywords:
       "contact IT institute, training institute contact, course enquiry, Ushnik contact",
+    path: "/contact",
   },
 
   /* ===== COURSES ===== */
@@ -80,6 +89,7 @@ const SeoMetadata = {
       "Learn UI/UX Design with hands-on training in user research, wireframing, prototyping and portfolio development using industry tools.",
     keywords:
       "UI UX course Hyderabad, UX design training, Figma course, UI UX certification",
+    path: "/courses/ui-ux",
   },
 
   aiMl: {
@@ -88,6 +98,7 @@ const SeoMetadata = {
       "Master Artificial Intelligence and Machine Learning concepts with real-time projects, practical exposure and career-oriented training.",
     keywords:
       "AI ML course, machine learning training, artificial intelligence course, data science basics",
+    path: "/courses/ai-machine-learning",
   },
 
   pythonFullStack: {
@@ -96,6 +107,7 @@ const SeoMetadata = {
       "Become a Python Full Stack Developer by learning Python, Django, frontend technologies, databases and deployment through hands-on projects.",
     keywords:
       "Python full stack course, Django training, Python developer course, full stack development",
+    path: "/courses/python-full-stack",
   },
 
   pythonAiMl: {
@@ -104,6 +116,7 @@ const SeoMetadata = {
       "Learn Python programming combined with AI and Machine Learning concepts including data analysis, ML models and applications.",
     keywords:
       "Python AI ML course, machine learning with Python, AI programming",
+    path: "/courses/python-ai-ml",
   },
 
   mathsMl: {
@@ -112,6 +125,7 @@ const SeoMetadata = {
       "Understand the mathematical foundations of machine learning including statistics, linear algebra and probability for data science.",
     keywords:
       "maths for machine learning, statistics for AI, linear algebra ML, data science maths",
+    path: "/courses/maths-for-ml",
   },
 
   mern: {
@@ -120,6 +134,7 @@ const SeoMetadata = {
       "Learn MERN Stack development using MongoDB, Express, React and Node.js with real-time applications and industry projects.",
     keywords:
       "MERN stack course, React developer training, Node JS course, JavaScript full stack",
+    path: "/courses/mern-stack",
   },
 
   devops: {
@@ -128,6 +143,7 @@ const SeoMetadata = {
       "Build DevOps skills with training in CI/CD pipelines, Docker, Kubernetes and cloud fundamentals through practical labs.",
     keywords:
       "DevOps training Hyderabad, CI CD course, Docker Kubernetes training, DevOps certification",
+    path: "/courses/devops",
   },
 
   socAnalyst: {
@@ -136,6 +152,7 @@ const SeoMetadata = {
       "Launch a cyber security career with SOC Analyst training covering threat monitoring, incident response and SIEM tools.",
     keywords:
       "SOC analyst course, cyber security training, SIEM tools, security operations center",
+    path: "/courses/soc-analyst",
   },
 };
 

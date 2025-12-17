@@ -11,6 +11,8 @@ import GoogleMap from "../components/GoogleMap";
 import MapData from "../data/MapData";
 import Footer from "../components/Footer";
 import FooterData from "../data/FooterData";
+import SEOComp from "../components/SEOComp";
+import SEOMetaData from "../data/SEOMetaData";
 
 import SocialBar from "../components/SocialBar";
 import SocialData from "../data/SocialData";
@@ -35,7 +37,7 @@ const Counter = ({ index, start, target, format, duration, pause }) => {
 const Home = () => {
   return (
     <>
-      {/* <SEOComp {...SEOMetaData.home} /> */}
+      <SEOComp {...SEOMetaData.home} />
       {/* HERO SECTION */}
       <section className="hero-section position-relative overflow-hidden d-flex align-items-center">
         {/* Background Video */}

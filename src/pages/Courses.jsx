@@ -3,16 +3,15 @@ import { Link } from "react-router-dom";
 import coursesData from "../data/AllCoursesData";
 import Footer from "../components/Footer";
 import FooterData from "../data/FooterData";
-
-// import SEOComp from "../components/SEOComp";
-// import SEOMetaData from "../data/SEOMetaData.js";
+import SEOComp from "../components/SEOComp";
+import SEOMetaData from "../data/SEOMetaData";
 
 const Courses = () => {
   const coursesArray = Object.values(coursesData); // convert object to array
 
   return (
     <>
-      {/* <SEOComp {...SEOMetaData.allCourses} /> */}
+      <SEOComp {...SEOMetaData.allCourses} />
       <div className="container py-5">
         <h2 className="text-center mb-5 fw-bold">Our Courses</h2>
 
