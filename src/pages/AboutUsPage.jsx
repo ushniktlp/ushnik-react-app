@@ -4,9 +4,13 @@ import AboutUsPageData from "../data/AboutUsPageData";
 import Footer from "../components/Footer";
 import FooterData from "../data/FooterData";
 
+// import SEOComp from "../components/SEOComp";
+// import SEOMetaData from "../data/SEOMetaData.js";
+
 const AboutUsPage = () => {
   return (
     <>
+      {/* <SEOComp {...SEOMetaData.about} /> */}
       <div className="about-page-wrapper text-justify lh-lg text-md-start">
         {/* Purpose */}
         <div className="section-block p-4 mb-5 rounded-3 shadow-sm bg-light">

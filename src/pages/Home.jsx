@@ -16,6 +16,9 @@ import SocialBar from "../components/SocialBar";
 import SocialData from "../data/SocialData";
 import CustomButton from "../components/CustomButton";
 
+// import SEOComp from "../components/SEOComp";
+// import SEOMetaData from "../data/SEOMetaData.js";
+
 const Counter = ({ index, start, target, format, duration, pause }) => {
   useEffect(() => {
     const el = document.getElementById(`counter-${index}`);
@@ -32,6 +35,7 @@ const Counter = ({ index, start, target, format, duration, pause }) => {
 const Home = () => {
   return (
     <>
+      {/* <SEOComp {...SEOMetaData.home} /> */}
       {/* HERO SECTION */}
       <section className="hero-section position-relative overflow-hidden d-flex align-items-center">
         {/* Background Video */}

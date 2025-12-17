@@ -5,9 +5,13 @@ import Footer from "../components/Footer";
 import FooterData from "../data/FooterData";
 import { Link } from "react-router-dom";
 
+// import SEOComp from "../components/SEOComp";
+// import SEOMetaData from "../data/SEOMetaData.js";
+
 const Programs = () => {
   return (
     <>
+      {/* <SEOComp {...SEOMetaData.programs} /> */}
       {/* VIDEO SECTION */}
       <section className="programs-video position-relative min-vh-100">
         <video
