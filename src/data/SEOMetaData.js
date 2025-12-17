@@ -30,7 +30,7 @@ const SeoMetadata = {
   programs: {
     title: "Training Programs | Internship & Job-Oriented Programs | Ushnik",
     description:
-      "Ushnik offers structured training programs designed to make learners job-ready through hands-on projects, internships, industry mentoring and certification.",
+      "Ushnik Technologies is a leading IT training institute in Hyderabad offering UI/UX, Python Full Stack, ",
     keywords:
       "job oriented programs, internship programs, IT training programs, career programs Hyderabad",
     path: "/programs",
