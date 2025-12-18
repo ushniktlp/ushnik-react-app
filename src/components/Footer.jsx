@@ -77,13 +77,14 @@ const Footer = () => {
               </li>
 
               <li className="mt-2">
-                <strong>Address:</strong>
-                <br />
-                {FooterData.contact.address.map((line, idx) => (
-                  <React.Fragment key={idx}>
+                <strong className="d-block mb-2">
+                  {FooterData.contact.address.title}
+                </strong>
+
+                {FooterData.contact.address.lines.map((line, index) => (
+                  <p key={index} className="mb-1">
                     {line}
-                    <br />
-                  </React.Fragment>
+                  </p>
                 ))}
               </li>
             </ul>
