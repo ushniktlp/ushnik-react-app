@@ -35,11 +35,9 @@ const FooterData = {
     address: {
       title: "Corporate Office:",
       lines: [
-        "Vamsiram Jyothi Imperial Building",
-        "Plot No. 189–198, Survey No. 50, 4th Floor",
-        "Janardhan Hills, Telecom Nagar",
-        "Near Gachibowli Flyover, Gachibowli",
-        "Hyderabad, Telangana – 500032, India",
+        "4th Floor, Vamsiram Jyothi Imperial Building, Janardhan Hills",
+        "Plot No. 189 - 198, Survey No. 50,",
+        "Telecom Nagar, Near Gachibowli Flyover, Hyderabad, Telangana - 500032, India",
       ],
     },
   },
