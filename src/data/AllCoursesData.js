@@ -8,6 +8,7 @@ import MERN from "../images/mern.jpg";
 import DEVOPS from "../images/devops.jpg";
 import SOC from "../images/socanalyst.jpg";
 import DOTNET from "../images/DOTNET.png";
+import PYGENAI from "../images/PYGENAI.png";
 
 const AllCoursesData = {
   "ui-ux": {
@@ -155,7 +156,7 @@ const AllCoursesData = {
 
   "maths-ml": {
     slug: "maths-ml",
-    title: "Advanced Mathematics for Machine Learning",
+    title: "Advanced Mathematics for ML",
     img: MATHSML,
     description:
       "Strengthen your foundation in the mathematical concepts that drive AI and ML. Learn how calculus, linear algebra, probability, and statistics form the backbone of intelligent systems.",
@@ -307,20 +308,30 @@ const AllCoursesData = {
       "Real-time apps (SignalR)",
       "Capstone + interview readiness",
     ],
-    // takeaways: ["", ".", "", "", ""],
-    // industrySkills: "",
-    // careers: [{ label: "" }, { label: "" }, { label: "" }, { label: "" }],
-    // skills: [
-    //   { label: "" },
-    //   { label: "" },
-    //   { label: "" },
-    //   { label: "" },
-    //   { label: "" },
-    //   { label: "" },
-    //   { label: "" },
-    // ],
-    // outcome: "",
     registerLink: "/register/dot-net",
+  },
+
+  "python-gen-ai": {
+    slug: "python-gen-ai",
+    title: "Python and Gen AI Crash Course",
+    img: PYGENAI,
+    focus: [
+      "Practical, job-oriented AI training",
+      "Python fundamentals for AI",
+      "Generative AI & LLM basics",
+      "Build AI chatbots & PDF Q&A bots",
+      "Web-based AI applications",
+      "Weekly hands-on assignments",
+    ],
+
+    highlights: [
+      "Training + internship",
+      "Hands-on project work",
+      "Build real-world chatbot applications",
+      "Industry-ready skills",
+      "Course and Intenrship Certification.(If enrolled for internship program)",
+    ],
+    registerLink: "/register/python-gen-ai",
   },
 };
 

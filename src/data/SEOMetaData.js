@@ -161,6 +161,13 @@ const SeoMetadata = {
     keywords: "",
     path: "/courses/dot-net",
   },
+
+  "python-gen-ai": {
+    title: "",
+    focus: "",
+    highlights: "",
+    path: "/courses/python-gen-ai",
+  },
 };
 
 export default SeoMetadata;

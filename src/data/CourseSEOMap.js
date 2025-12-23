@@ -8,6 +8,7 @@ const CourseSeoMap = {
   "dev-ops": "dev-ops",
   "soc-analyst": "soc-analyst",
   "dot-net": "dot-net",
+  "python-gen-ai": "python-gen-ai",
 };
 
 export default CourseSeoMap;

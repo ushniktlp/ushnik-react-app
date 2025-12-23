@@ -92,6 +92,35 @@ const CourseDetails = () => {
             </>
           )}
 
+          {course.focus?.length > 0 && (
+            <>
+              <h5 className="fw-bold">
+                This program focuses on practical, job-oriented skills with
+                real-world use cases.
+              </h5>
+              <ul className="list-group list-group-flush mb-4">
+                {course.focus.map((item, i) => (
+                  <li key={i} className="list-group-item">
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </>
+          )}
+
+          {course.highlights?.length > 0 && (
+            <>
+              <h5 className="fw-bold">Program Highlights</h5>
+              <ul className="list-group list-group-flush mb-4">
+                {course.highlights.map((item, i) => (
+                  <li key={i} className="list-group-item">
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </>
+          )}
+
           {/* Industry Skills */}
           {course.industrySkills && (
             <>
