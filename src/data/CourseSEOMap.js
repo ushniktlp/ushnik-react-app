@@ -3,10 +3,11 @@ const CourseSeoMap = {
   "ai-machine-learning": "aiMl",
   "python-full-stack": "pythonFullStack",
   "python-ai-ml": "pythonAiMl",
-  "maths-for-ml": "mathsMl",
+  "maths-ml": "mathsMl",
   "mern-stack": "mern",
-  devops: "devops",
-  "soc-analyst": "socAnalyst",
+  "dev-ops": "dev-ops",
+  "soc-analyst": "soc-analyst",
+  "dot-net": "dot-net",
 };
 
 export default CourseSeoMap;

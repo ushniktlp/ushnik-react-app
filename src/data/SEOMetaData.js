@@ -125,7 +125,7 @@ const SeoMetadata = {
       "Understand the mathematical foundations of machine learning including statistics, linear algebra and probability for data science.",
     keywords:
       "maths for machine learning, statistics for AI, linear algebra ML, data science maths",
-    path: "/courses/maths-for-ml",
+    path: "/courses/maths-ml",
   },
 
   mern: {
@@ -137,22 +137,29 @@ const SeoMetadata = {
     path: "/courses/mern-stack",
   },
 
-  devops: {
+  "dev-ops": {
     title: "DevOps Training Course in Hyderabad | Ushnik Technologies",
     description:
       "Build DevOps skills with training in CI/CD pipelines, Docker, Kubernetes and cloud fundamentals through practical labs.",
     keywords:
       "DevOps training Hyderabad, CI CD course, Docker Kubernetes training, DevOps certification",
-    path: "/courses/devops",
+    path: "/courses/dev-ops",
   },
 
-  socAnalyst: {
+  "soc-analyst": {
     title: "SOC Analyst Course in Hyderabad | Cyber Security Training | Ushnik",
     description:
       "Launch a cyber security career with SOC Analyst training covering threat monitoring, incident response and SIEM tools.",
     keywords:
       "SOC analyst course, cyber security training, SIEM tools, security operations center",
     path: "/courses/soc-analyst",
+  },
+
+  "dot-net": {
+    title: "",
+    description: "",
+    keywords: "",
+    path: "/courses/dot-net",
   },
 };
 

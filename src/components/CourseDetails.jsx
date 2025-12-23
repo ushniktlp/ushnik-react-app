@@ -26,12 +26,12 @@ const CourseDetails = () => {
     <>
       <SEOComp {...seoData} />
 
-      <div className="container py-5">
-        <h1>{seoData.title}</h1>
+      <div>
+        <h1 style={{ color: "white" }}>{seoData.title}</h1>
         {/* course-specific UI */}
       </div>
 
-      <div className="container my-5" style={{ paddingTop: "72px" }}>
+      <div className="container my-5">
         <div className="card shadow p-4 mt-4">
           <h1 className="mb-4 mt-3 fw-bold fs-2 fs-md-1 text-break">
             {course.title}
@@ -69,6 +69,21 @@ const CourseDetails = () => {
               <h5 className="fw-bold">Key Takeaways</h5>
               <ul className="list-group list-group-flush mb-4">
                 {course.takeaways.map((item, i) => (
+                  <li key={i} className="list-group-item">
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </>
+          )}
+
+          {course.highlevel?.length > 0 && (
+            <>
+              <h5 className="fw-bold">
+                What this curriculum covers (high-level):
+              </h5>
+              <ul className="list-group list-group-flush mb-4">
+                {course.highlevel.map((item, i) => (
                   <li key={i} className="list-group-item">
                     {item}
                   </li>

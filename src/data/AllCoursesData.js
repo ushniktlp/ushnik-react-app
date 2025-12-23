@@ -7,6 +7,7 @@ import MATHSML from "../images/mathsml.jpg";
 import MERN from "../images/mern.jpg";
 import DEVOPS from "../images/devops.jpg";
 import SOC from "../images/socanalyst.jpg";
+import DOTNET from "../images/DOTNET.png";
 
 const AllCoursesData = {
   "ui-ux": {
@@ -41,8 +42,8 @@ const AllCoursesData = {
     registerLink: "/register/ui-ux",
   },
 
-  "ai-ml": {
-    slug: "ai-ml",
+  "ai-machine-learning": {
+    slug: "ai-machine-learning",
     title: "AI & Machine Learning Program",
     img: AIML,
     description:
@@ -84,8 +85,8 @@ const AllCoursesData = {
     registerLink: "/register/ai-ml",
   },
 
-  "python-fullstack": {
-    slug: "python-fullstack",
+  "python-full-stack": {
+    slug: "python-full-stack",
     title: "Python Full Stack Developer",
     img: PYTHONFS,
     description:
@@ -118,8 +119,8 @@ const AllCoursesData = {
     registerLink: "/register/python-fullstack",
   },
 
-  "python-for-ai-ml": {
-    slug: "python-for-ai-ml",
+  "python-ai-ml": {
+    slug: "python-ai-ml",
     title: "Python for AI & ML Program",
     img: PYTHONAIML,
     description:
@@ -184,8 +185,8 @@ const AllCoursesData = {
     registerLink: "/register/maths-ml",
   },
 
-  mern: {
-    slug: "mern",
+  "mern-stack": {
+    slug: "mern-stack",
     title: "MERN Full Stack Developer Program",
     img: MERN,
     description:
@@ -224,8 +225,8 @@ const AllCoursesData = {
     registerLink: "/register/mern",
   },
 
-  devops: {
-    slug: "devops",
+  "dev-ops": {
+    slug: "dev-ops",
     title: "DevOps Program",
     img: DEVOPS,
     description:
@@ -289,6 +290,37 @@ const AllCoursesData = {
     outcome:
       "Advance your expertise in threat detection, SIEM fine-tuning, and complex incident handling to operate at a senior SOC analyst level. Strengthen your ability to conduct deep investigations, optimize playbooks, and communicate RCA and security insights to leadership teams.",
     registerLink: "/register/soc-analyst",
+  },
+
+  "dot-net": {
+    slug: "dot-net",
+    title: ".Net Program",
+    img: DOTNET,
+    description: "",
+    highlevel: [
+      "Advanced C# & .NET Core",
+      "Enterprise-grade API development",
+      "Microservices & cloud-ready backend",
+      "Security, performance & scalability",
+      "Full-stack integration",
+      "DevOps, CI/CD & deployment",
+      "Real-time apps (SignalR)",
+      "Capstone + interview readiness",
+    ],
+    // takeaways: ["", ".", "", "", ""],
+    // industrySkills: "",
+    // careers: [{ label: "" }, { label: "" }, { label: "" }, { label: "" }],
+    // skills: [
+    //   { label: "" },
+    //   { label: "" },
+    //   { label: "" },
+    //   { label: "" },
+    //   { label: "" },
+    //   { label: "" },
+    //   { label: "" },
+    // ],
+    // outcome: "",
+    registerLink: "/register/dot-net",
   },
 };
 
