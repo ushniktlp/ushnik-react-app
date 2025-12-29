@@ -527,23 +527,27 @@ body {
 }
 
 /* ---------- FOOTER ---------- */
-.footer-lightgrey {
+/* .footer-lightgrey {
   color: var(--second);
 }
 
 .footer-lightgrey a {
   color: var(--second);
-}
+} */
 
 .footer-lightgrey {
   background-color: var(--third);
   color: var(--second);
 }
 
-.footer-lightgrey a {
+/* .footer-lightgrey a:hover {
+  color: #fdae06;
+} */
+
+/* .footer-lightgrey a {
   color: var(--second);
   text-decoration: none;
-}
+} */
 
 /* Footer headings */
 .footer-lightgrey h5,

@@ -1,5 +1,6 @@
 import React from "react";
 import FooterData from "../data/FooterData";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -24,12 +25,23 @@ const Footer = () => {
             <ul className="list-unstyled footer-links">
               {FooterData.usefulLinks.map((item, index) => (
                 <li key={index}>
-                  <a
-                    href={item.url}
-                    className="text-white text-decoration-none"
-                  >
-                    {item.label}
-                  </a>
+                  {item.type === "internal" ? (
+                    <Link
+                      to={item.url}
+                      className="text-white text-decoration-none"
+                    >
+                      {item.label}
+                    </Link>
+                  ) : (
+                    <a
+                      href={item.url}
+                      className="text-white text-decoration-none"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {item.label}
+                    </a>
+                  )}
                 </li>
               ))}
             </ul>
@@ -107,6 +119,23 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
+          </div>
+        </div>
+
+        {/* Terms & Conditions */}
+        <div className="row mt-3">
+          <div className="col text-center">
+            {FooterData.usefulLinks
+              .filter((item) => item.label === "Terms & Conditions")
+              .map((item, index) => (
+                <Link
+                  key={index}
+                  to={item.url}
+                  className="text-white text-decoration-none fw-medium"
+                >
+                  {item.label}
+                </Link>
+              ))}
           </div>
         </div>
 

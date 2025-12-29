@@ -6,6 +6,8 @@ import {
   useLocation,
 } from "react-router-dom";
 
+import ScrollToTop from "./components/ScrollToTop";
+
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 import Splash from "./components/Splash";
@@ -22,6 +24,7 @@ import CertificatePage from "./pages/CertificatePage";
 import InternshipPage from "./pages/InternshipPage";
 import PlacementPage from "./pages/PlacementPage";
 import CourseDetails from "./components/CourseDetails";
+import TermsConditions from "./pages/TermsConditions";
 
 function AppContent() {
   const location = useLocation();
@@ -75,6 +78,7 @@ function AppContent() {
           <Route path="/internship" element={<InternshipPage />} />
           <Route path="/placement" element={<PlacementPage />} />
           <Route path="/schedule" element={<Schedule />} />
+          <Route path="/terms" element={<TermsConditions />} />
 
           <Route path="/courses/:courseSlug" element={<CourseDetails />} />
         </Routes>
@@ -87,6 +91,7 @@ function AppContent() {
 export default function App() {
   return (
     <Router>
+      <ScrollToTop />
       <AppContent />
     </Router>
   );

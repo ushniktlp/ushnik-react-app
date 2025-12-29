@@ -11,36 +11,27 @@ import DOTNET from "../images/DOTNET.png";
 import PYGENAI from "../images/PYGENAI.png";
 
 const AllCoursesData = {
-  "ui-ux": {
-    slug: "ui-ux",
-    title: "UI/UX Developer Course",
-    img: UIUX,
-    description:
-      "This program empowers you to design engaging, user-centric digital products that blend creativity with functionality. Learn how to craft seamless experiences using modern design tools and research-driven strategies.",
-    takeaways: [
-      "Understand the fundamentals of UI/UX design and design thinking.",
-      "Create prototypes, wireframes, and mockups using Figma & Adobe XD.",
-      "Learn usability testing, accessibility, and interaction design.",
-      "Build a professional portfolio with real-world projects.",
+  "python-gen-ai": {
+    slug: "python-gen-ai",
+    title: "Python and Gen AI Crash Course",
+    img: PYGENAI,
+    focus: [
+      "Practical, job-oriented AI training",
+      "Python fundamentals for AI",
+      "Generative AI & LLM basics",
+      "Build AI chatbots & PDF Q&A bots",
+      "Web-based AI applications",
+      "Weekly hands-on assignments",
     ],
-    industrySkills:
-      "Gain practical design experience through live case studies, team projects, and portfolio-based learning guided by industry experts.",
-    careers: [
-      { icon: "🎨", label: "UI/UX Designer" },
-      { icon: "🔍", label: "UX Researcher" },
-      { icon: "🖱️", label: "Interaction Designer" },
-      { icon: "🖌️", label: "Visual Designer" },
+
+    highlights: [
+      "Training + internship",
+      "Hands-on project work",
+      "Build real-world chatbot applications",
+      "Industry-ready skills",
+      "Course and Intenrship Certification.(If enrolled for internship program)",
     ],
-    skills: [
-      { icon: "🎨", label: "Figma" },
-      { icon: "🧪", label: "Prototyping" },
-      { icon: "💡", label: "Design Thinking" },
-      { icon: "🗺️", label: "User Journeys" },
-      { icon: "🌈", label: "Color Theory" },
-      { icon: "🧩", label: "UI Components" },
-    ],
-    outcome: "Portfolio + 3 Complete UI/UX Projects.",
-    registerLink: "/register/ui-ux",
+    registerLink: "/register/python-gen-ai",
   },
 
   "ai-machine-learning": {
@@ -311,27 +302,36 @@ const AllCoursesData = {
     registerLink: "/register/dot-net",
   },
 
-  "python-gen-ai": {
-    slug: "python-gen-ai",
-    title: "Python and Gen AI Crash Course",
-    img: PYGENAI,
-    focus: [
-      "Practical, job-oriented AI training",
-      "Python fundamentals for AI",
-      "Generative AI & LLM basics",
-      "Build AI chatbots & PDF Q&A bots",
-      "Web-based AI applications",
-      "Weekly hands-on assignments",
+  "ui-ux": {
+    slug: "ui-ux",
+    title: "UI/UX Developer Course",
+    img: UIUX,
+    description:
+      "This program empowers you to design engaging, user-centric digital products that blend creativity with functionality. Learn how to craft seamless experiences using modern design tools and research-driven strategies.",
+    takeaways: [
+      "Understand the fundamentals of UI/UX design and design thinking.",
+      "Create prototypes, wireframes, and mockups using Figma & Adobe XD.",
+      "Learn usability testing, accessibility, and interaction design.",
+      "Build a professional portfolio with real-world projects.",
     ],
-
-    highlights: [
-      "Training + internship",
-      "Hands-on project work",
-      "Build real-world chatbot applications",
-      "Industry-ready skills",
-      "Course and Intenrship Certification.(If enrolled for internship program)",
+    industrySkills:
+      "Gain practical design experience through live case studies, team projects, and portfolio-based learning guided by industry experts.",
+    careers: [
+      { icon: "🎨", label: "UI/UX Designer" },
+      { icon: "🔍", label: "UX Researcher" },
+      { icon: "🖱️", label: "Interaction Designer" },
+      { icon: "🖌️", label: "Visual Designer" },
     ],
-    registerLink: "/register/python-gen-ai",
+    skills: [
+      { icon: "🎨", label: "Figma" },
+      { icon: "🧪", label: "Prototyping" },
+      { icon: "💡", label: "Design Thinking" },
+      { icon: "🗺️", label: "User Journeys" },
+      { icon: "🌈", label: "Color Theory" },
+      { icon: "🧩", label: "UI Components" },
+    ],
+    outcome: "Portfolio + 3 Complete UI/UX Projects.",
+    registerLink: "/register/ui-ux",
   },
 };
 

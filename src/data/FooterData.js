@@ -12,20 +12,24 @@ const FooterData = {
   },
 
   usefulLinks: [
-    { label: "Home", url: "https://ushnik.in" },
-    { label: "About Us", url: "https://ushnik.in" },
-    { label: "Enroll Now", url: "https://ushnik.in" },
-    { label: "Refer & Earn", url: "https://ushnik.in" },
+    { label: "Home", url: "/", type: "internal" },
+    { label: "About Us", url: "/about", type: "internal" },
+    { label: "Enroll Now", url: "https://ushnik.in", type: "external" },
+    { label: "Refer & Earn", url: "https://ushnik.in", type: "external" },
+    { label: "Terms & Conditions", url: "/terms", type: "internal" },
   ],
 
   courses: [
-    { label: "UI/UX Developer", url: "/uiux" },
-    { label: "AI & Machine Learning Program", url: "/aiml" },
-    { label: "Python Full Stack Developer", url: "/python-fullstack" },
-    { label: "Python for AI & ML", url: "/python-aiml" },
-    { label: "Advanced Math for ML", url: "/maths-ml" },
-    { label: "MERN Stack Developer", url: "/mern" },
-    { label: "DevOps Program", url: "/devops" },
+    { label: "UI/UX Developer", url: "/courses/ui-ux" },
+    {
+      label: "AI & Machine Learning Program",
+      url: "/courses/ai-machine-learning",
+    },
+    { label: "Python Full Stack Developer", url: "/courses/python-full-stack" },
+    { label: "Python for AI & ML", url: "/courses/python-ai-ml" },
+    { label: "Advanced Math for ML", url: "/courses/maths-ml" },
+    { label: "MERN Stack Developer", url: "/courses/mern-stack" },
+    { label: "DevOps Program", url: "/courses/dev-ops" },
   ],
 
   contact: {
