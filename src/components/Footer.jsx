@@ -122,23 +122,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Terms & Conditions */}
-        <div className="row mt-3">
-          <div className="col text-center">
-            {FooterData.usefulLinks
-              .filter((item) => item.label === "Terms & Conditions")
-              .map((item, index) => (
-                <Link
-                  key={index}
-                  to={item.url}
-                  className="text-white text-decoration-none fw-medium"
-                >
-                  {item.label}
-                </Link>
-              ))}
-          </div>
-        </div>
-
         {/* Copyright */}
         <div className="row mt-4">
           <div className="col text-center">

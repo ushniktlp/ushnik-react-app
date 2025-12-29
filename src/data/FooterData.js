@@ -17,6 +17,7 @@ const FooterData = {
     { label: "Enroll Now", url: "https://ushnik.in", type: "external" },
     { label: "Refer & Earn", url: "https://ushnik.in", type: "external" },
     { label: "Terms & Conditions", url: "/terms", type: "internal" },
+    { label: "Placement Consulting Program", url: "/pcp", type: "internal" },
   ],
 
   courses: [

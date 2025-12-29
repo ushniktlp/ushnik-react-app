@@ -25,6 +25,7 @@ import InternshipPage from "./pages/InternshipPage";
 import PlacementPage from "./pages/PlacementPage";
 import CourseDetails from "./components/CourseDetails";
 import TermsConditions from "./pages/TermsConditions";
+import PCP from "./pages/PCP";
 
 function AppContent() {
   const location = useLocation();
@@ -79,6 +80,7 @@ function AppContent() {
           <Route path="/placement" element={<PlacementPage />} />
           <Route path="/schedule" element={<Schedule />} />
           <Route path="/terms" element={<TermsConditions />} />
+          <Route path="/pcp" element={<PCP />} />
 
           <Route path="/courses/:courseSlug" element={<CourseDetails />} />
         </Routes>
